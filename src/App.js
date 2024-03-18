@@ -1,4 +1,5 @@
 import Connbutton from "./components/Connbutton";
+import CustomButton from "./components/Custombutton";
 
 
 function App() {
@@ -7,9 +8,9 @@ function App() {
       <div>
           <Connbutton />
       </div>
-      {/* <div>
-           <CustomButton />
-      </div> */}
+      <div>
+        <CustomButton />
+      </div>
     </div>
   );
 }
